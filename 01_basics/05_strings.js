@@ -30,4 +30,22 @@ console.log(newStringOne);
 console.log(newStringOne.trim());
 
 
+const url = "https://hitesh.com/hitesh%20choudhary"
+
+
+url
+
+console.log(url.replace('%20',' '));
+
+
+console.log(url.includes('hello'));
+
+
+console.log(gameName.split('-'));
+
+
+
+
+
+
 
