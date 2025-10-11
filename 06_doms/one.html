@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+
+<body class="bg-black">
+    <
+    <h1 id="title" class="heading">DOM learning <span style="display: none;">test text</span></h1>
+    <div class = "change">
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias animi eum itaque reiciendis maiores sint sequi tempore quas nobis dicta non fugiat ipsam maxime omnis temporibus, consequuntur numquam cum quia?</h2>
+    <h2>Lorem ipsum  sit.</h2>
+    <h2>Lorem ipsum dolor </h2>
+    <p>Lorem ipsum color is not</p>
+    <input type="password" name="" id="">
+    </div>
+
+
+    <ul>
+        <li class = "list">one</li>
+        <li class = "list">two</li>
+        <li class = "list">three</li>
+    </ul>
+</body>
+
+<script>
+    const doc = document.querySelector('.change')
+    console.log(doc)
+    
+    doc.children[2].style.backgroundColor = "orange";
+    
+</script>
+</html>
+

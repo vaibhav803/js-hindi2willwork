@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHai aur javascript</title>
+    
+</head>
+<body>
+    <h1>chai aur javascript with coffee</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+    
+</body>
+<script>
+    const sayDate = function(str){
+        console.log(str,Date.now())
+    }
+        const id = setInterval(sayDate,500,"hi")
+
+    clearInterval(id)
+
+</script>
+</html>
